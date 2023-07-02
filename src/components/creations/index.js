@@ -10,7 +10,8 @@ const Creations = (props) => {
             </div>
 
             <ul className='creations container'>
-                {props.cards.map(card =><li>
+                {props.cards.map(card =>
+                <li>
                     <Card key={card.title} title={card.title} image={card.img}/>
                 </li>)}
             </ul>
