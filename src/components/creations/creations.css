@@ -40,11 +40,21 @@
     padding-bottom: 8rem;
 }
 
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 890px) {
+
+    .creations-title{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+
     .creations{
-        grid-template-columns: repeat(2, auto);
-        justify-content: space-evenly;
-        row-gap: 1rem;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-around;
     }
 }
 
