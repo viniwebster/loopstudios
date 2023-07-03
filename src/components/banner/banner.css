@@ -1,11 +1,11 @@
 .banner{
-    height: 70vh;
+    height: 700px;
     background: center top / cover url('../../../public/images/stock-photo-teenage-boy-headset-playing-racing.jpg');
 }
 
 .banner .title{
     display: flex;
-    height: calc(70vh - 68px);
+    height: calc(700px - 68px);
     align-items: center;
 }
 

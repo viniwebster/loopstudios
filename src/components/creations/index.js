@@ -6,13 +6,13 @@ const Creations = (props) => {
         <section className='container'>
             <div className='creations-title'>
                 <h2>{props.title}</h2>
-                <button className='btn'>SEE ALL</button>
+                <button className='btn' onClick={props.mostraTodos}>SEE ALL</button>
             </div>
 
             <ul className='creations container'>
                 {props.cards.map(card =>
                 <li>
-                    <Card key={card.title} title={card.title} image={card.img}/>
+                    <Card title={card.title} image={card.img}/>
                 </li>)}
             </ul>
         </section>
