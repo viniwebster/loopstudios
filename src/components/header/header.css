@@ -32,6 +32,7 @@
 
 .header .nav-container a li{
     font-family: var(--secundary-font);
+    font-weight: 300;
 }
 
 .header .nav-container .menuMobile{
